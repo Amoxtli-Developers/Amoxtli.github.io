@@ -52,7 +52,7 @@
         border-bottom: none !important;
     }
     .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.active {
-        color: #f68723 !important;
+        color: #00A6BB !important;
     }
     .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li li a {
         font-size: 15px;
@@ -85,10 +85,10 @@
         width: 35px;
         height: 30px;
         padding-top: 13px;
-        color: #f68723;
+        color: #00A6BB;
     }
     .mobile-responsive-nav .mobile-responsive-menu.mean-container a.meanmenu-reveal span {
-        background: #f68723;
+        background: #00A6BB;
         height: 4px;
         margin-top: -8px;
         border-radius: 0;
@@ -166,7 +166,6 @@
     }
     .banner-area {
         padding-top: 132px;
-        padding-bottom: 132px;
     }
     .banner-area .banner-shape-2 {
         display: none;

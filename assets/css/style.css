@@ -109,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #000000;
+    color: #00A6BB;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
 }
@@ -137,7 +137,7 @@ p:last-child {
 }
 
 .bg-color-3d0660 {
-    background-color: #3d0660;
+    background-color: #2A2A4D;
 }
 
 .bg-color-100f0f {
@@ -184,10 +184,6 @@ p:last-child {
 
 .pt-70 {
     padding-top: 70px;
-}
-
-.pb-70 {
-    padding-bottom: 70px;
 }
 
 .default-btn {
@@ -277,7 +273,7 @@ p:last-child {
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
-    color: #fd7529;
+    color: #00A6BB;
     border: 1px dashed rgba(122, 28, 208, 0.42);
     border-radius: 30px;
     padding: 6px 28px;
@@ -288,14 +284,14 @@ p:last-child {
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
-    color: #fd7529;
+    color: #00A6BB;
     margin-bottom: 15px;
 }
 
 .section-title h2 {
     font-size: 40px;
     margin-bottom: 0;
-    color: #000000;
+    color: #00A6BB;
 }
 
 .section-heading {
@@ -306,7 +302,7 @@ p:last-child {
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
-    color: #fd7529;
+    color: #00A6BB;
     border: 1px dashed rgba(122, 28, 208, 0.42);
     border-radius: 30px;
     padding: 6px 28px;
@@ -317,14 +313,14 @@ p:last-child {
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
-    color: #fd7529;
+    color: #00A6BB;
     margin-bottom: 15px;
 }
 
 .section-heading h2 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #000000;
+    color: #00A6BB;
 }
 
 .section-heading p {
@@ -335,6 +331,9 @@ p:last-child {
 /*
 Navbar Area Style
 ======================================================*/
+.main-logo{
+    max-width: 20%;
+}
 
 .navbar-area {
     border-bottom: 1px solid rgba(255, 255, 255, 0.19);
@@ -352,8 +351,7 @@ Navbar Area Style
     -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-    background-color: #000000;
-    border-bottom: 1px solid #000000;
+    background-color: #ffffff;
 }
 
 .navbar-area .container-fluid {
@@ -398,7 +396,6 @@ Navbar Area Style
 
 .desktop-nav .navbar .navbar-nav .nav-item a {
     font-size: 18px;
-    color: #ffffff;
     line-height: 1;
     position: relative;
     font-weight: 500;
@@ -419,11 +416,9 @@ Navbar Area Style
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a.dropdown-toggle::before {
-    content: "\ebc0";
     position: absolute;
     top: 1px;
     right: 10px;
-    font-family: boxicons !important;
     line-height: 1;
     font-size: 18px;
     font-weight: 500;
@@ -432,7 +427,7 @@ Navbar Area Style
 .desktop-nav .navbar .navbar-nav .nav-item a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item a.active {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a i {
@@ -453,7 +448,7 @@ Navbar Area Style
 .desktop-nav .navbar .navbar-nav .nav-item:hover a,
 .desktop-nav .navbar .navbar-nav .nav-item:focus a,
 .desktop-nav .navbar .navbar-nav .nav-item.active a {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -506,7 +501,7 @@ Navbar Area Style
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -543,7 +538,7 @@ Navbar Area Style
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -561,7 +556,7 @@ Navbar Area Style
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -948,7 +943,7 @@ Navbar Area Style
     text-align: center;
     border-radius: 50%;
     color: #ffffff;
-    background-color: #fd7529;
+    background-color: #00A6BB;
     transform: translateY(-50%);
 }
 
@@ -957,7 +952,7 @@ Navbar Area Style
 }
 
 .login .form-check-label {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .desktop-nav .others-options .option-item {
@@ -1025,7 +1020,7 @@ Navbar Area Style
 }
 
 .desktop-nav .others-options .option-item .search-overlay.search-popup .search-form .search-input:focus {
-    border: 1px solid #fd7529;
+    border: 1px solid #00A6BB;
 }
 
 .desktop-nav .others-options .option-item .search-overlay.search-popup .search-form .search-button {
@@ -1036,7 +1031,7 @@ Navbar Area Style
     height: 50px;
     font-size: 18px;
     color: #ffffff;
-    background-color: #fd7529;
+    background-color: #00A6BB;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1044,11 +1039,11 @@ Navbar Area Style
 }
 
 .desktop-nav .others-options .option-item:hover .search-btn {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .desktop-nav .others-options .option-item:hover .close-btn {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -1102,11 +1097,11 @@ Others Option For Responsive Area Style
     margin: 0 2px;
     border-radius: 100%;
     transition: all ease 0.5s;
-    background-color: #fd7529;
+    background-color: #00A6BB;
 }
 
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-    background-color: #fd7529;
+    background-color: #00A6BB;
 }
 
 .others-option-for-responsive .container {
@@ -1158,7 +1153,7 @@ Others Option For Responsive Area Style
 .others-option-for-responsive .container .others-options .optional-btn i {
     font-size: 28px;
     margin-right: 0;
-    color: #fd7529 !important;
+    color: #00A6BB !important;
     position: relative;
     top: 5px;
 }
@@ -1236,7 +1231,7 @@ Others Option For Responsive Area Style
 }
 
 .others-option-for-responsive .container .others-options .option-item .search-overlay.search-popup .search-form .search-input:focus {
-    border: 1px solid #fd7529;
+    border: 1px solid #00A6BB;
 }
 
 .others-option-for-responsive .container .others-options .option-item .search-overlay.search-popup .search-form .search-button {
@@ -1247,7 +1242,7 @@ Others Option For Responsive Area Style
     height: 50px;
     font-size: 18px;
     color: #ffffff;
-    background-color: #fd7529;
+    background-color: #00A6BB;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1255,11 +1250,11 @@ Others Option For Responsive Area Style
 }
 
 .others-option-for-responsive .container .others-options .option-item:hover .search-btn {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .others-option-for-responsive .container .others-options .option-item:hover .close-btn {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .result-pagination.search-pagination {
@@ -1272,8 +1267,6 @@ Banner Area Style
 
 .banner-area {
     padding-top: 180px;
-    padding-bottom: 160px;
-    background-image: url("../../assets/images/banner-bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1315,7 +1308,7 @@ Banner Area Style
 .banner-content span {
     font-size: 16px;
     font-weight: 500;
-    color: #fd7529;
+    color: #2A2A4D;
     background-color: rgba(255, 255, 255, 0.12);
     padding: 11px 21px;
     border-radius: 30px;
@@ -1325,7 +1318,7 @@ Banner Area Style
     font-size: 110px;
     font-weight: 800;
     line-height: 115px;
-    color: #ffffff;
+    color: #00A6BB;
     letter-spacing: -0.01em;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -1496,7 +1489,7 @@ Our Awesome Features Area Style
     height: 100%;
     z-index: -2;
     border-radius: 100px 0px 100px 0px;
-    background: linear-gradient(180deg, #FF2BCA 0%, #FEA420 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .features-card i {
@@ -1508,7 +1501,7 @@ Our Awesome Features Area Style
     text-align: center;
     display: block;
     color: #ffffff;
-    background: linear-gradient(30deg, #FF17F1 13.39%, #FF5379 50%, #FEB012 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
     position: absolute;
     top: -30px;
     left: 0;
@@ -1530,27 +1523,27 @@ Our Awesome Features Area Style
 }
 
 .features-card.two i {
-    background: linear-gradient(30deg, #910BFF 13.39%, #BC0CB7 50%, #F91E85 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 .features-card.two::before {
-    background: linear-gradient(180deg, #EF1B8E 0%, #980BF5 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .features-card.three i {
-    background: linear-gradient(30deg, #48B2FD 13.39%, #9279FD 31.7%, #CB3FFF 50%, #F254BE 68.3%, #FABEBC 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 .features-card.three::before {
-    background: linear-gradient(180deg, #F795BD 0%, #6F95FD 100%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 .features-card.four i {
-    background: linear-gradient(30deg, #C200D6 13.39%, #B901D5 23.83%, #A105D2 40.86%, #790CCD 62.34%, #4414C6 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 .features-card.four::before {
-    background: linear-gradient(180deg, #5012C8 0%, #9108D0 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 /*
@@ -1592,7 +1585,7 @@ Modern Graphics Area Style
     position: absolute;
     top: 2px;
     left: 0;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .modern-info .common-btn {
@@ -1686,7 +1679,7 @@ Our Awesome Services Area Style
     height: 100%;
     z-index: -2;
     border-radius: 100px 0px 100px 0px;
-    background: linear-gradient(180deg, #F85C76 0%, #DC36B6 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .services-card i {
@@ -1699,7 +1692,7 @@ Our Awesome Services Area Style
     text-align: center;
     display: block;
     color: #ffffff;
-    background: linear-gradient(30deg, #FD6D6D 13.39%, #ED3389 50%, #D837BF 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
     position: absolute;
     top: -30px;
     left: 0;
@@ -1723,7 +1716,7 @@ Our Awesome Services Area Style
 }
 
 .services-card .info h4 a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .services-card.one {
@@ -1743,11 +1736,11 @@ Our Awesome Services Area Style
 }
 
 .services-card.two::before {
-    background: linear-gradient(180deg, #FA877A 0%, #9B23EA 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .services-card.two i {
-    background: linear-gradient(30deg, #7632FF 13.39%, #BD14D6 31.7%, #E81190 50%, #FF795F 68.3%, #F88F88 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 .services-card.two .service-shape-2 {
@@ -1762,11 +1755,11 @@ Our Awesome Services Area Style
 }
 
 .services-card.three::before {
-    background: linear-gradient(180deg, #980BF5 0%, #E71994 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .services-card.three i {
-    background: linear-gradient(30deg, #910BFF 13.39%, #BC0CB7 50%, #F91E85 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 .services-card.four {
@@ -1775,11 +1768,11 @@ Our Awesome Services Area Style
 }
 
 .services-card.four::before {
-    background: linear-gradient(180deg, #C432D9 0%, #6C8EFE 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .services-card.four i {
-    background: linear-gradient(30deg, #669CFE 13.39%, #8C41FE 37.79%, #C531D8 62.2%, #FE37A1 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 .services-card.four .service-shape-5 {
@@ -1794,11 +1787,11 @@ Our Awesome Services Area Style
 }
 
 .services-card.five::before {
-    background: linear-gradient(180deg, #5012C8 0%, #9108D0 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .services-card.five i {
-    background: linear-gradient(30deg, #C200D6 13.39%, #B901D5 23.83%, #A105D2 40.86%, #790CCD 62.34%, #4414C6 86.61%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
 }
 
 /*
@@ -1907,7 +1900,7 @@ Counter Area Style
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: #73299a;
+    background-color: #2A2A4D;
     z-index: -1;
     opacity: 0.3;
 }
@@ -1946,21 +1939,21 @@ Counter Area Style
 .count-info h3 {
     font-size: 64px;
     margin-bottom: 0;
-    background: linear-gradient(89.84deg, #FE8E37 2.65%, #FF32BC 71.87%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .count-info h3 .odometer {
-    background: linear-gradient(89.84deg, #FE8E37 2.65%, #FF32BC 71.87%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .count-info h3 .odometer-value {
-    background: linear-gradient(89.84deg, #FE8E37 2.65%, #FF32BC 71.87%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1971,7 +1964,7 @@ Counter Area Style
     font-weight: 700;
     position: relative;
     bottom: -15px;
-    background: linear-gradient(89.84deg, #FE8E37 2.65%, #FF32BC 71.87%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2071,7 +2064,7 @@ Pricing Plan Area Style
     display: block;
     font-size: 36px;
     font-weight: 700;
-    color: rgba(253, 117, 41, 0.97);
+    color: #00A6BB;
     transition: all ease 0.5s;
     background: linear-gradient(46.25deg, rgba(255, 57, 180, 0.1) 9.58%, rgba(254, 137, 65, 0.1) 84.34%);
     width: 108px;
@@ -2141,7 +2134,7 @@ Pricing Plan Area Style
     top: 2px;
     right: 10px;
     font-size: 18px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .pricing-content .pricing-card ul li .panel {
@@ -2314,7 +2307,7 @@ Meet Our Expert Team Area Style
 }
 
 .team-card .team-social ul li i {
-    color: #fd7529;
+    color: #00A6BB;
     background-color: #ffffff;
     width: 36px;
     height: 36px;
@@ -2325,7 +2318,7 @@ Meet Our Expert Team Area Style
 }
 
 .team-card .team-social ul li i:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -2368,7 +2361,6 @@ Meet Our Expert Team Area Style
 .awesome-slider.owl-theme .owl-nav [class*=owl-] {
     color: #000000;
     font-size: 30px;
-    background: rgba(253, 117, 41, 0.17);
     width: 50px;
     height: 50px;
     line-height: 58px;
@@ -2402,7 +2394,7 @@ Meet Our Expert Team Area Style
 
 .team-slider.owl-theme .owl-nav [class*=owl-]:hover,
 .awesome-slider.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -2556,7 +2548,7 @@ Testimonials Area Style
 
 .testimonials-slider.owl-carousel.owl-theme .owl-dots .owl-dot.active span {
     width: 27px;
-    background-color: #fd7529;
+    background-color: #00A6BB;
 }
 
 /*
@@ -2619,7 +2611,7 @@ See Our Latest News Area Style
 }
 
 .blog-card .single .blog-content h4 a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .blog-card .single .blog-content ul {
@@ -2650,7 +2642,7 @@ See Our Latest News Area Style
 }
 
 .blog-card .single .blog-content ul li a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 /*
@@ -2713,7 +2705,7 @@ Footer Area Style
 }
 
 .widget ul li i {
-    color: #fd7529;
+    color: #00A6BB;
     background-color: #ffffff;
     width: 36px;
     height: 36px;
@@ -2724,7 +2716,7 @@ Footer Area Style
 }
 
 .widget ul li i:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -2779,7 +2771,7 @@ Footer Area Style
 }
 
 .address ul li a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .address ul li i {
@@ -2787,7 +2779,7 @@ Footer Area Style
     top: 2px;
     left: 0;
     font-size: 18px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .address .location li {
@@ -2809,7 +2801,7 @@ Footer Area Style
 }
 
 .address .location li i:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -2857,12 +2849,12 @@ Copyright Area Style
 }
 
 .copy-area .copy p span {
-    color: #fd7529;
+    color: #00A6BB;
     font-weight: 500;
 }
 
 .copy-area .copy p a {
-    color: #fd7529;
+    color: #00A6BB;
     font-weight: 500;
 }
 
@@ -2923,7 +2915,7 @@ Home Tow banner Area Style
     display: -webkit-inline-box;
     margin-bottom: 18px;
     font-weight: 500;
-    color: #fd7529;
+    color: #00A6BB;
     border-radius: 5px;
     padding: 11px 21px;
     background: rgba(255, 255, 255, 0.06);
@@ -2933,7 +2925,7 @@ Home Tow banner Area Style
     font-size: 100px;
     font-weight: 800;
     line-height: 100px;
-    color: #ffffff;
+    color: #00A6BB;
     margin-bottom: 35px;
 }
 
@@ -3024,7 +3016,7 @@ Home Tow Our Best Service Area Style
 }
 
 .service-area .section-heading h2 {
-    color: #ffffff;
+    color: #00A6BB;
     margin-bottom: 0;
 }
 
@@ -3091,7 +3083,7 @@ Home Tow Our Best Service Area Style
 }
 
 .service-card h4 a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .service-card p {
@@ -3118,7 +3110,7 @@ Home Tow About Us Area Style
 }
 
 .about-area .section-heading h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .about-image {
@@ -3202,7 +3194,7 @@ Home Tow Get Started Instantly Area Style
 }
 
 .newsletter-area .section-heading h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .newsletter-area .news-shape-1 {
@@ -3304,7 +3296,7 @@ Home Tow Our Awesome Features Area Style
 }
 
 .feature-info .section-heading h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .feature-info .section-heading p {
@@ -3459,7 +3451,7 @@ Home Tow How It Works Area Style
 }
 
 .works-area .section-title h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .works-categories {
@@ -3527,7 +3519,7 @@ Home Tow How It Works Area Style
 
 .works-categories .popup-image .popup-btn i {
     font-size: 25px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .single-works {
@@ -3631,7 +3623,7 @@ Home Tow Choose Your Pricing Plan Area Style
 }
 
 .pricing-area.pricing-area-two .section-title h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .pricing-area.pricing-area-two .pricing-content .nav-tabs {
@@ -3711,7 +3703,7 @@ Home Tow Choose Your Pricing Plan Area Style
 }
 
 .workflow-integration-area.workflow-integration-area-2 .history .section-heading h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .workflow-integration-area.workflow-integration-area-2 .history .section-heading p {
@@ -3744,7 +3736,7 @@ Home Tow Our Client Feedback Area Style
 }
 
 .testimonials-area.testimonials-area-2 .section-heading h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .testimonials-box.testimonials-card {
@@ -3801,7 +3793,7 @@ Home Tow Our Client Feedback Area Style
 }
 
 .client-slider.owl-carousel.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -3816,7 +3808,7 @@ Home Tow See Our Latest Blog Area Style
 }
 
 .latest-area .section-title h2 {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .latest-card {
@@ -3886,7 +3878,7 @@ Home Tow See Our Latest Blog Area Style
 }
 
 .latest-card .latest-body ul li a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .latest-card .latest-body h4 {
@@ -3901,7 +3893,7 @@ Home Tow See Our Latest Blog Area Style
 }
 
 .latest-card .latest-body h4 a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 /*
@@ -3922,7 +3914,7 @@ Home Three See Our Latest Blog Area Style
 
 .navbar-area.navbar-area-3 .desktop-nav .navbar .navbar-nav .nav-item a.active,
 .navbar-area.navbar-area-3 .desktop-nav .navbar .navbar-nav .nav-item a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .navbar-area.navbar-area-3 .desktop-nav .others-options .option-item .search-btn {
@@ -3996,7 +3988,7 @@ Home Three See Our Latest Blog Area Style
 .hero-content span {
     font-weight: 500;
     font-size: 16px;
-    color: #fd7529;
+    color: #00A6BB;
     background: rgba(254, 147, 51, 0.1);
     border-radius: 5px;
     padding: 10px 25px;
@@ -4144,7 +4136,7 @@ Home Three Awesome Area Style
 }
 
 .awesome-card h4 a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .awesome-card.two .awesome-image::before {
@@ -4199,7 +4191,7 @@ Home Three Business Success Area Style
     position: absolute;
     top: 1px;
     left: 0;
-    color: #fd7529;
+    color: #00A6BB;
     font-weight: 400;
     font-size: 18px;
 }
@@ -4433,7 +4425,7 @@ Home Three Popup Area Style
 
 .popup-area .popup-img .popup-btn i {
     font-size: 28px;
-    color: #fd7529;
+    color: #00A6BB;
     background: #ffffff;
     width: 70px;
     height: 70px;
@@ -4445,16 +4437,16 @@ Home Three Popup Area Style
 }
 
 .popup-area .popup-img .popup-btn:hover {
-    border: 1px solid #fd7529;
+    border: 1px solid #00A6BB;
 }
 
 .popup-area .popup-img .popup-btn:hover::before {
-    border: 1px solid #fd7529;
+    border: 1px solid #00A6BB;
 }
 
 .popup-area .popup-img .popup-btn:hover i {
     color: #ffffff;
-    background-color: #fd7529;
+    background-color: #00A6BB;
 }
 
 .popup-area .popup-img .popup-img-1 {
@@ -4566,7 +4558,7 @@ Home Three Our Portfolio Area Style
 
 .portfolio-slider.owl-carousel.owl-theme .owl-nav [class*=owl-]:hover,
 .expert-slider.owl-carousel.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -4597,7 +4589,7 @@ Home Three What Our Client Say Area Style
 }
 
 .say-card h4 a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .say-card p {
@@ -4695,7 +4687,7 @@ Services Page Style
 }
 
 .page-banner-heading ul li a {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .page-banner-heading ul li a:hover {
@@ -4793,12 +4785,12 @@ Services Details Page Style
     top: 18px;
     right: 15px;
     font-size: 18px;
-    color: #fd7529;
+    color: #00A6BB;
     transition: all ease 0.5s;
 }
 
 .service-details-card ul li:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
 }
 
 .service-details-card ul li:hover a {
@@ -4850,7 +4842,7 @@ Services Details Page Style
 
 .banner-offer .info span {
     display: block;
-    color: #fd7529;
+    color: #00A6BB;
     margin-bottom: 10px;
 }
 
@@ -4928,7 +4920,7 @@ Services Details Page Style
     top: 2px;
     left: 0;
     font-size: 18px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .development-to .project-info .project-image img {
@@ -5071,7 +5063,7 @@ About Page Style
 }
 
 .modern-graphic-area.about-area .modern-info .section-heading h2 {
-    color: #000000;
+    color: #00A6BB;
 }
 
 .modern-graphic-area.about-area .modern-info ul li i {
@@ -5131,7 +5123,7 @@ Team Details Page Style
 }
 
 .pagination-team .pagination .page-item .page-link:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -5309,7 +5301,7 @@ FAQ Accordion Page Style
 
 .pel-address ul li .icon i {
     font-size: 35px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .pel-address ul li p {
@@ -5324,7 +5316,7 @@ FAQ Accordion Page Style
 }
 
 .pel-address ul li a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 /*
@@ -5368,7 +5360,7 @@ Contact Us Page Style
 }
 
 .contact-form .form-control:focus {
-    border: 1px solid #fd7529;
+    border: 1px solid #00A6BB;
 }
 
 .contact-form .form-control:focus::-moz-placeholder {
@@ -5522,7 +5514,7 @@ Blog Page Style
     position: absolute;
     top: 5px;
     left: 0;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .categories-box ul li span {
@@ -5533,7 +5525,7 @@ Blog Page Style
 }
 
 .categories-box ul li a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .tags {
@@ -5599,7 +5591,7 @@ Blog Page Style
 }
 
 .tags ul li a:hover {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
 }
 
@@ -5687,7 +5679,7 @@ Blog Page Style
 }
 
 .recent-post ul li .info h5 a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 /*
@@ -5838,7 +5830,7 @@ Blog Details Page Style
 }
 
 .blog-details-content .share-social .share-social-icon li a i {
-    color: #fd7529;
+    color: #00A6BB;
     border: 1px solid rgba(253, 117, 41, 0.97);
     width: 36px;
     height: 36px;
@@ -6023,7 +6015,7 @@ Portfolio Page Style
 
 .portfolio-area .view-gallery .single-view span {
     display: block;
-    color: #fd7529;
+    color: #00A6BB;
     margin-bottom: 15px;
 }
 
@@ -6107,7 +6099,7 @@ Portfolio Details Page Style
     top: 2px;
     left: 0;
     font-size: 18px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .portfolio-details-content .worksit {
@@ -6183,7 +6175,7 @@ Portfolio Details Page Style
 }
 
 .showcase .details-image .single-view span {
-    color: #fd7529;
+    color: #00A6BB;
     display: block;
     margin-bottom: 16px;
 }
@@ -6291,7 +6283,7 @@ Portfolio Details Page Style
     top: 2px;
     left: 0;
     font-size: 28px;
-    color: #fd7529;
+    color: #00A6BB;
     background-color: #ffffff;
     width: 60px;
     height: 60px;
@@ -6312,7 +6304,7 @@ Portfolio Details Page Style
 }
 
 .halp-card ul li a:hover {
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 /*
@@ -6362,7 +6354,7 @@ Privacy Policy Area Style
     position: absolute;
     left: 0;
     top: 1px;
-    color: #fd7529;
+    color: #00A6BB;
     font-size: 20px;
 }
 
@@ -6386,14 +6378,14 @@ Our Terms & Conditions Page Style
 }
 
 .terms-conditions .title span {
-    color: #fd7529;
+    color: #00A6BB;
     display: block;
     margin-bottom: 10px;
 }
 
 .terms-conditions .title h2 {
     font-size: 36px;
-    color: #000000;
+    color: #00A6BB;
 }
 
 .terms-conditions img {
@@ -6434,7 +6426,7 @@ Our Terms & Conditions Page Style
     left: 0;
     top: 1px;
     font-size: 20px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .terms-conditions .conditions-content h3 {
@@ -6474,7 +6466,7 @@ Our Terms & Conditions Page Style
     font-size: 300px;
     line-height: 1;
     font-weight: 700;
-    color: #fd7529;
+    color: #00A6BB;
     margin-top: -40px;
 }
 
@@ -6500,7 +6492,7 @@ Our Terms & Conditions Page Style
 .error-area .error-content-wrap p {
     margin: 20px 0 20px;
     font-size: 19px;
-    color: #fd7529;
+    color: #00A6BB;
 }
 
 .error-area .error-content-wrap .default-btn.two {
@@ -6572,7 +6564,7 @@ Coming Soon Area Style
     font-size: 48px;
     margin-top: 30px;
     margin-bottom: 0;
-    color: #000000;
+    color: #00A6BB;
 }
 
 .coming-soon-area .coming-soon-content #timer {
@@ -6580,7 +6572,7 @@ Coming Soon Area Style
 }
 
 .coming-soon-area .coming-soon-content #timer div {
-    background-color: #fd7529;
+    background-color: #00A6BB;
     color: #ffffff;
     width: 130px;
     height: 130px;
@@ -6642,7 +6634,7 @@ Coming Soon Area Style
 }
 
 .coming-soon-area .coming-soon-content .newsletter-form .form-group .form-control:focus {
-    border-bottom: 1px solid #fd7529;
+    border-bottom: 1px solid #00A6BB;
 }
 
 .coming-soon-area .coming-soon-content .newsletter-form .form-group .form-control:focus::-moz-placeholder {
@@ -6734,7 +6726,7 @@ Login Register Area Style
     transition: var(--transition);
     bottom: 0;
     content: "";
-    background-color: #fd7529;
+    background-color: #00A6BB;
 }
 
 .login-form form .default-btn {
@@ -6855,7 +6847,7 @@ Go Top Area Style
     cursor: pointer;
     top: 50%;
     right: 15px;
-    background-color: #fd7529;
+    background-color: #00A6BB;
     z-index: 4;
     width: 40px;
     text-align: center;
@@ -6919,7 +6911,7 @@ Preloader Area Style
     -webkit-animation: spinner 1s infinite linear;
     animation: spinner 1s infinite linear;
     border: 3px solid #555555;
-    border-top-color: #fd7529;
+    border-top-color: #00A6BB;
     margin: 0 auto 3.5em auto;
     border-radius: 50%;
     height: 6em;

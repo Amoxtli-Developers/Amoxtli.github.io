@@ -83,8 +83,8 @@ $body-font-family: 'Work Sans', sans-serif;
 
 $font-size: 16px;
 $body-color: #555555;
-$main-color: #fd7529;
-$heading-color: #000000;
+$main-color: #00A6BB;
+$heading-color: #00A6BB;
 $card-border-color: #eeeeee;
 $red-color: #ff0000;
 $border-color:dfdfff;
@@ -206,11 +206,6 @@ p {
 .pt-70 {
     padding: {
         top: 70px;
-    };
-}
-.pb-70 {
-    padding: {
-        bottom: 70px;
     };
 }
 
@@ -382,7 +377,6 @@ p {
 Navbar Area Style
 ======================================================*/
 .navbar-area {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.19);
 	background-color: transparent;
 	padding: {
 		top: 24px;
@@ -1332,7 +1326,6 @@ Banner Area Style
 .banner-area {
     padding: {
         top: 180px;
-        bottom: 160px;
     };
     background-image: url("../../assets/images/banner-bg.jpg");
     background-position: center center;
@@ -2146,7 +2139,7 @@ Pricing Plan Area Style
                     top: 2px;
                     right: 10px;
                     font-size: 18px;
-                    color: #fd7529;
+                    color: #00A6BB;
                 }
                 .panel {
                     color: #ff0000;
@@ -2571,7 +2564,7 @@ Testimonials Area Style
                         span {
                             width: 27px;
                             background: {
-                                color: #fd7529;
+                                color: #00A6BB;
                             };
                         }
                     }
@@ -4591,7 +4584,6 @@ Services Page Style
 .page-banner-area {
     padding: {
         top: 165px;
-        bottom: 35px;
     };
     position: relative;
     .page-shape-1 {

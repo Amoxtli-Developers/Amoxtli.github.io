@@ -55,7 +55,7 @@
                                     };
                                 }
                                 &.active {
-                                    color: #f68723 !important;
+                                    color: #00A6BB !important;
                                 }
                             }
                             li {
@@ -95,9 +95,9 @@
                         width: 35px;
                         height: 30px;
                         padding-top: 13px;
-                        color: #f68723;
+                        color: #00A6BB;
                         span {
-                            background: #f68723;
+                            background: #00A6BB;
                             height: 4px;
                             margin-top: -8px;
                             border-radius: 0;
@@ -190,7 +190,6 @@
     }
     .banner-area {
         padding-top: 132px;
-        padding-bottom: 132px;
         .banner-shape-2 {
             display: none;
         }
@@ -2753,7 +2752,6 @@
     }
     /* services page */
     .page-banner-area {
-        padding-bottom: 80px;
         .page-shape-2 {
             display: none;
         }
