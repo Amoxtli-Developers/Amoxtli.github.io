@@ -91,7 +91,7 @@ img {
 }
 
 a {
-    color: #555555;
+    color: white;
     text-decoration: none;
     transition: all ease 0.5s;
     display: inline-block;
@@ -128,10 +128,6 @@ p:last-child {
     background-color: #3a96af;
 }
 
-.bg-color-f6f3f0 {
-    background-color: #f6f3f0;
-}
-
 .bg-color-73299a {
     background-color: #73299a;
 }
@@ -166,7 +162,7 @@ p:last-child {
 
 .ptb-100 {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .pt-100 {
@@ -1318,7 +1314,7 @@ Banner Area Style
     font-size: 110px;
     font-weight: 800;
     line-height: 115px;
-    color: #00A6BB;
+    color: #CE1B64;
     letter-spacing: -0.01em;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -1489,7 +1485,6 @@ Our Awesome Features Area Style
     height: 100%;
     z-index: -2;
     border-radius: 100px 0px 100px 0px;
-    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 .features-card i {
@@ -1501,7 +1496,6 @@ Our Awesome Features Area Style
     text-align: center;
     display: block;
     color: #ffffff;
-    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
     position: absolute;
     top: -30px;
     left: 0;
@@ -1520,30 +1514,6 @@ Our Awesome Features Area Style
     font-size: 24px;
     color: #000000;
     margin-bottom: 15px;
-}
-
-.features-card.two i {
-    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
-}
-
-.features-card.two::before {
-    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
-}
-
-.features-card.three i {
-    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
-}
-
-.features-card.three::before {
-    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
-}
-
-.features-card.four i {
-    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
-}
-
-.features-card.four::before {
-    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
 }
 
 /*
@@ -2018,7 +1988,7 @@ Pricing Plan Area Style
 }
 
 .pricing-content .nav-item .nav-link.active {
-    background: linear-gradient(75.94deg, #FF2EC4 4.26%, #FE9036 93.22%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     border-radius: 60px;
     color: #ffffff;
 }
@@ -2107,7 +2077,7 @@ Pricing Plan Area Style
     width: 0%;
     height: 100%;
     border-radius: 50%;
-    background: linear-gradient(46.25deg, #FF39B4 9.58%, #F73A93 9.58%, #FE7948 84.34%);
+    background: linear-gradient(30deg, #FA1F6F 13.39%, #CE1B64 50%, #AA0400 86.61%);
     z-index: -1;
     opacity: 0;
     transition: all ease 0.5s;
@@ -2163,7 +2133,7 @@ Pricing Plan Area Style
     width: 0%;
     height: 100%;
     border-radius: 40px;
-    background: linear-gradient(95.32deg, #FF823E -0.67%, #F73A93 73.27%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     z-index: -1;
     opacity: 0;
     visibility: hidden;
@@ -2183,7 +2153,7 @@ Pricing Plan Area Style
     right: 0;
     width: 0%;
     height: 100%;
-    background: linear-gradient(180deg, #FE7A47 0%, #F63A93 100%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     z-index: -1;
     opacity: 0;
     border-radius: 5px;
@@ -2247,7 +2217,7 @@ Meet Our Expert Team Area Style
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: linear-gradient(179.21deg, #FE7B46 36.01%, #F73A93 99.32%);
+    background: linear-gradient(180deg, #FA1F6F 0%, #CE1B64 100%);
     box-shadow: 0px 0px 30px rgba(122, 28, 208, 0.07);
     border-radius: 20px;
     transition: all ease 0.5s;
@@ -2307,19 +2277,12 @@ Meet Our Expert Team Area Style
 }
 
 .team-card .team-social ul li i {
-    color: #00A6BB;
-    background-color: #ffffff;
     width: 36px;
     height: 36px;
     line-height: 36px;
     border-radius: 50%;
     text-align: center;
-    transition: all ease 0.5s;
-}
-
-.team-card .team-social ul li i:hover {
-    background-color: #00A6BB;
-    color: #ffffff;
+    font-size: 25px;
 }
 
 .team-card .name {
@@ -2542,7 +2505,6 @@ Testimonials Area Style
     width: 19px;
     height: 10px;
     border-radius: 30px;
-    background-color: rgba(253, 117, 41, 0.24);
     transition: all ease 0.5s;
 }
 
@@ -2652,6 +2614,7 @@ Footer Area Style
 .footer-area {
     position: relative;
     z-index: 1;
+    padding-left: 180px;
 }
 
 .footer-area::before {
@@ -2663,7 +2626,7 @@ Footer Area Style
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: #3b0458;
+    background-color: white;
     z-index: -1;
 }
 
@@ -2737,7 +2700,7 @@ Footer Area Style
     line-height: 44px;
     text-align: center;
     border-radius: 50%;
-    background-color: #4f1d69;
+    background-color: #2A2A4D;
     transition: all ease 0.5s;
     z-index: -1;
 }
@@ -2745,7 +2708,7 @@ Footer Area Style
 .address h4 {
     font-size: 28px;
     margin-bottom: 30px;
-    color: #ffffff;
+    color: #2A2A4D;
 }
 
 .address ul {
@@ -2767,7 +2730,7 @@ Footer Area Style
 }
 
 .address ul li a {
-    color: #e8e8e8;
+    color: #2A2A4D;
 }
 
 .address ul li a:hover {
@@ -2811,7 +2774,7 @@ Footer Area Style
 }
 
 .address .location li span {
-    color: #e8e8e8;
+    color: #2A2A4D;
 }
 
 /*
@@ -2835,7 +2798,7 @@ Copyright Area Style
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: #3b0458;
+    background-color: #2A2A4D;
     z-index: -1;
 }
 
@@ -6874,7 +6837,7 @@ Go Top Area Style
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #000000;
+    background-color: #2A2A4D;
     opacity: 0;
     visibility: hidden;
     transition: all ease 0.5s;

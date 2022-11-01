@@ -43,10 +43,6 @@ i[class*=" flaticon-"]:before {
     content: "\f107";
 }
 
-.flaticon-next:before {
-    content: "\f108";
-}
-
 .flaticon-phone-call:before {
     content: "\f109";
 }
@@ -135,10 +131,6 @@ i[class*=" flaticon-"]:before {
     content: "\f11e";
 }
 
-.flaticon-straight-quotes:before {
-    content: "\f11f";
-}
-
 .flaticon-light-bulb-1:before {
     content: "\f120";
 }
@@ -169,8 +161,4 @@ i[class*=" flaticon-"]:before {
 
 .flaticon-select:before {
     content: "\f127";
-}
-
-.flaticon-left:before {
-    content: "\f128";
 }
