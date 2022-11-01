@@ -113,8 +113,8 @@
         smartSpeed: 1000,
         autoplayHoverPause: true,
         navText: [
-            "<i class='flaticon-left'></i>",
-            "<i class='flaticon-next'></i>"
+            "<i class='bi bi-arrow-left'></i>",
+            "<i class='bi bi-arrow-right'></i>"
         ],
         responsive: {
             0: {
@@ -179,8 +179,8 @@
         smartSpeed: 1000,
         autoplayHoverPause: true,
         navText: [
-            "<i class='flaticon-left'></i>",
-            "<i class='flaticon-next'></i>"
+            "<i class='bi bi-arrow-left'></i>",
+            "<i class='bi bi-arrow-right'></i>"
         ],
         responsive: {
             0: {
@@ -214,8 +214,8 @@
         smartSpeed: 1000,
         autoplayHoverPause: true,
         navText: [
-            "<i class='flaticon-left'></i>",
-            "<i class='flaticon-next'></i>"
+            "<i class='bi bi-arrow-left'></i>",
+            "<i class='bi bi-arrow-right'></i>"
         ],
         responsive: {
             0: {
