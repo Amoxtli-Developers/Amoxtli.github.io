@@ -6647,8 +6647,8 @@ Preloader Area Style
         position: absolute;
         z-index: 100;
         .spinner {
-            animation: spinner 1s infinite linear;
-            border: 3px solid rgba($color: #555555, $alpha: 1.0);
+            animation: spinner 10s infinite linear;
+            border: 3px solid rgba($color: #2A2A4D, $alpha: 1.0);
             border-top-color: $main-color;
             margin: 0 auto 3.5em auto;
             border-radius: 50%;
@@ -6661,36 +6661,36 @@ Preloader Area Style
             user-select: none;
             .letters-loading {
                 &::before {
-                    animation: letters-loading 4s infinite;
+                    animation: letters-loading 10s infinite;
                     content: attr(data-text-preloader);
                     top: 0;
                     left: 0;
                     opacity: 0;
                     position: absolute;
-                    color: #d4040b;
+                    color: #CE1B64;
                     transform: rotateY(-90deg);
                 }
             }
             .letters-loading {
                 position: relative;
-                color: rgb(241, 138, 4);
+                color: #CE1B64;
             }
             &.letters-loading:nth-child(2):before {
-                animation-delay: 0.2s;
+                animation-delay: 10s;
                 &:nth-child(3):before {
-                    animation-delay: 0.4s;
+                    animation-delay: 10s;
                 }
                 &:nth-child(4):before {
-                    animation-delay: 0.6s;
+                    animation-delay: 10s;
                 }
                 &:nth-child(5):before {
-                    animation-delay: 0.8s;
+                    animation-delay: 10s;
                 }
                 &:nth-child(6):before {
-                    animation-delay: 1s;
+                    animation-delay: 10s;
                 }
                 &:nth-child(7):before {
-                    animation-delay: 1.2s;
+                    animation-delay: 10s;
                 }
             }
         }
@@ -6712,7 +6712,7 @@ Preloader Area Style
 .loaded {
     .animation-preloader {
         opacity: 0;
-        transition: 0.3s ease-out;
+        transition: 10s ease-out;
     }
     .loader-section {
         &.section-left {
@@ -6780,24 +6780,24 @@ Preloader Area Style
     animation: rotation 20s infinite linear;
 }
 .animationFramesTwo {
-    -webkit-animation: animationFramesTwo 15000ms infinite ease-in-out;
-    animation: animationFramesTwo 15000ms infinite ease-in-out;
+    -webkit-animation: animationFramesTwo 150000ms infinite ease-in-out;
+    animation: animationFramesTwo 150000ms infinite ease-in-out;
 }
 .bounce {
     -webkit-animation: float 1500ms infinite ease-in-out;
-    animation: float 1500ms infinite ease-in-out;
+    animation: float 15000ms infinite ease-in-out;
 }
 .moveHorizontal {
-    -webkit-animation: moveHorizontal 3000ms infinite ease-in-out;
-    animation: moveHorizontal 3000ms infinite ease-in-out;
+    -webkit-animation: moveHorizontal 30000ms infinite ease-in-out;
+    animation: moveHorizontal 30000ms infinite ease-in-out;
 }
 .moveHorizontal_reverse {
-    -webkit-animation: moveHorizontal_reverse 3000ms infinite ease-in-out;
-    animation: moveHorizontal_reverse 3000ms infinite ease-in-out;
+    -webkit-animation: moveHorizontal_reverse 30000ms infinite ease-in-out;
+    animation: moveHorizontal_reverse 30000ms infinite ease-in-out;
 }
 .moveVertical {
-    -webkit-animation: moveVertical 3000ms infinite ease-in-out;
-    animation: moveVertical 3000ms infinite ease-in-out;
+    -webkit-animation: moveVertical 30000ms infinite ease-in-out;
+    animation: moveVertical 30000ms infinite ease-in-out;
 }
 
 @-webkit-keyframes waving_left {
