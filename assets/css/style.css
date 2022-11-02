@@ -109,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #00A6BB;
+    color: black;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
 }
@@ -287,7 +287,7 @@ p:last-child {
 .section-title h2 {
     font-size: 40px;
     margin-bottom: 0;
-    color: #00A6BB;
+    color: black;
 }
 
 .section-heading {
@@ -316,7 +316,7 @@ p:last-child {
 .section-heading h2 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #00A6BB;
+    color: black;
 }
 
 .section-heading p {
@@ -333,9 +333,9 @@ Navbar Area Style
 
 .navbar-area {
     border-bottom: 1px solid rgba(255, 255, 255, 0.19);
-    background-color: white;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
 }
 
 .navbar-area.is-sticky {
@@ -1262,7 +1262,6 @@ Banner Area Style
 ======================================================*/
 
 .banner-area {
-    padding-top: 180px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1476,6 +1475,7 @@ Our Awesome Features Area Style
     top: -30px;
     left: 0;
     z-index: 2;
+    background: linear-gradient(180deg, #F978C5 -0.29%, #FA1F6F 47.99%, #CE1B64 82.71%, #AA0400 99.12%);
 }
 
 .features-card .features {
@@ -3319,7 +3319,7 @@ Home Three Awesome Area Style
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, #7783f4 -0.29%, #a92c80 47.99%, #e71372 82.71%, #ff0a6c 99.12%);
+    background: linear-gradient(180deg, #F978C5 -0.29%, #FA1F6F 47.99%, #CE1B64 82.71%, #AA0400 99.12%);
     width: 64px;
     height: 60px;
     line-height: 50px;
@@ -3345,26 +3345,6 @@ Home Three Awesome Area Style
 
 .awesome-card h4 a:hover {
     color: #00A6BB;
-}
-
-.awesome-card.two .awesome-image::before {
-    background: linear-gradient(180deg, #ff992e -0.29%, #f88138 21.29%, #e74453 66.59%, #da1467 99.12%);
-}
-
-.awesome-card.three .awesome-image::before {
-    background: linear-gradient(180deg, #eec32d -0.29%, #fd754d -0.28%, #f63d90 99.1%, #f36e2b 99.11%);
-}
-
-.awesome-card.four .awesome-image::before {
-    background: linear-gradient(180deg, #eec32d -0.29%, #efab2d 19.69%, #f36e2b 61.62%, #f6322a 99.12%);
-}
-
-.awesome-card.five .awesome-image::before {
-    background: linear-gradient(180deg, #D61669 -0.29%, #EF4445 60.92%, #FC5C33 99.12%);
-}
-
-.awesome-card.six .awesome-image::before {
-    background: linear-gradient(180deg, #A30A7C -0.29%, #D541A5 64.81%, #EB59B7 99.12%);
 }
 
 .best-service-area .awesome-card .awesome-image {
@@ -3504,7 +3484,7 @@ Home Three Boost Your Business Area Style
 }
 
 .business-experience .experience-card .heading .business-img {
-    background: rgba(253, 117, 41, 0.1);
+    background: #2A2A4D;
     border-radius: 5px;
     width: 60px;
     height: 55px;
