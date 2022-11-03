@@ -1313,14 +1313,14 @@ Banner Area Style
     font-size: 110px;
     font-weight: 800;
     line-height: 115px;
-    color: #CE1B64;
+    color: #2A2A4D;
     letter-spacing: -0.01em;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
 .banner-content p {
-    color: #d7d6d6;
+    color: gray;
     margin-bottom: 35px;
 }
 
@@ -1410,6 +1410,7 @@ Banner Area Style
 .banner-img {
     position: relative;
     z-index: 1;
+    padding-left: 150px;
 }
 
 .banner-img .banner-shape-1 {
