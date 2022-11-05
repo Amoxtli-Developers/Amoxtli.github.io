@@ -3297,14 +3297,21 @@ Home Three Awesome Area Style
 }
 
 .awesome-card {
-    box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.07);
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
     background-color: #ffffff;
-    border-radius: 20px;
+    min-height: 300px;
+    border-radius: 10px;
     padding: 35px 30px;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 30px;
+}
+
+#centro img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .awesome-card .awesome-image {
@@ -3327,6 +3334,9 @@ Home Three Awesome Area Style
     text-align: center;
     border-radius: 5px;
     z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .awesome-card .awesome-image img {
@@ -3335,6 +3345,7 @@ Home Three Awesome Area Style
 }
 
 .awesome-card h4 {
+    text-align: center;
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -3345,7 +3356,7 @@ Home Three Awesome Area Style
 }
 
 .awesome-card h4 a:hover {
-    color: #00A6BB;
+    color: #f73a93;
 }
 
 .best-service-area .awesome-card .awesome-image {
@@ -3485,7 +3496,7 @@ Home Three Boost Your Business Area Style
 }
 
 .business-experience .experience-card .heading .business-img {
-    background: #2A2A4D;
+    background: linear-gradient(180deg, #F978C5 -0.29%, #FA1F6F 47.99%, #CE1B64 82.71%, #AA0400 99.12%);
     border-radius: 5px;
     width: 60px;
     height: 55px;
@@ -3807,7 +3818,7 @@ Services Page Style
 ======================================================*/
 
 .page-banner-area {
-    padding-top: 165px;
+    padding-top: 50px;
     padding-bottom: 35px;
     position: relative;
 }
@@ -5989,3 +6000,23 @@ Preloader Area Style
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* SERVICES SETPS*/
+.steps_button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.button_steps_normal{
+    font-size: 15px;
+    color: #F63A93;
+}
+
+.button_steps_especial{
+    font-size: 13px;
+    color: #F63A93;
+    font-weight: bold;
+}
+
+
