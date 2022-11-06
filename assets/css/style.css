@@ -6003,6 +6003,7 @@ Preloader Area Style
 
 /* SERVICES SETPS*/
 .steps_button{
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -6016,6 +6017,27 @@ Preloader Area Style
 .button_steps_especial{
     font-size: 13px;
     color: #F63A93;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link{
+    min-height: 120px;
+    min-width: 200px;
+    background-color: white;
+    background-image: url("../../assets/images/logo/axolotl.png");
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-link.active p{
+    opacity: 0;
+}
+
+.number_steps{
+    color: white;
+    font-size: 20px;
     font-weight: bold;
 }
 
