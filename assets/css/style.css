@@ -1858,7 +1858,7 @@ Footer Area Style
 .footer-area {
     position: relative;
     z-index: 1;
-    padding-left: 180px;
+    margin: auto;
 }
 
 .footer-area::before {
