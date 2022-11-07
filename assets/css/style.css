@@ -3494,7 +3494,6 @@ Home Three Boost Your Business Area Style
 }
 
 .business-experience .experience-card .heading .business-img {
-    background: #CE1B64;
     border-radius: 5px;
     width: 60px;
     height: 55px;
@@ -3507,7 +3506,7 @@ Home Three Boost Your Business Area Style
 
 .business-experience .experience-card .heading .business-img img {
     width: 40px;
-    height: 35px;
+    height: 40px;
 }
 
 .business-experience .experience-card .heading h4 {
@@ -6031,7 +6030,7 @@ Preloader Area Style
 }
 
 .number_steps{
-    color: white;
+    color: #CE1B64;
     font-size: 20px;
     font-weight: bold;
 }
