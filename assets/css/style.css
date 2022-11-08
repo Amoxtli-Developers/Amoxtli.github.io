@@ -4782,12 +4782,12 @@ Portfolio Page Style
     opacity: 0;
     visibility: hidden;
     transition: all ease 0.5s;
-    background: rgba(46, 10, 92, 0.75);
+    
     border-radius: 10px;
 }
 
 .portfolio-area .view-gallery .popup-view {
-    background: linear-gradient(54.46deg, rgba(253, 117, 41, 0.97) 11.33%, #FF3CA7 85.73%);
+    
     opacity: 0;
     visibility: hidden;
     width: 50px;
@@ -4819,7 +4819,7 @@ Portfolio Page Style
 
 .portfolio-area .view-gallery .single-view span {
     display: block;
-    color: #00A6BB;
+    color: #c51717;
     margin-bottom: 15px;
 }
 
