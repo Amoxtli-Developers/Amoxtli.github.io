@@ -3491,9 +3491,10 @@ Home Three Boost Your Business Area Style
 .business-experience .experience-card .heading {
     position: relative;
     margin-bottom: 50px;
+    display: flex;
 }
 
-.business-experience .experience-card .heading .business-img {
+.business-experience .experience-card .heading .business-img img{
     border-radius: 5px;
     width: 60px;
     height: 55px;
@@ -3893,6 +3894,7 @@ Services Page Style
 
 .page-banner-img {
     text-align: end;
+    max-width: 70%;
 }
 
 .process-area {
@@ -6031,7 +6033,7 @@ Preloader Area Style
 
 .number_steps{
     color: #CE1B64;
-    font-size: 20px;
+    font-size: 45px;
     font-weight: bold;
 }
 
