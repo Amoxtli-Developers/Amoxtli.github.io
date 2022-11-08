@@ -4767,6 +4767,7 @@ Portfolio Page Style
 .portfolio-area .view-gallery {
     position: relative;
     margin-bottom: 22px;
+    max-width: 60%;
 }
 
 .portfolio-area .view-gallery::before {
@@ -4800,8 +4801,8 @@ Portfolio Page Style
 }
 
 .portfolio-area .view-gallery .popup-view i {
-    color: #ffffff;
-    font-size: 24px;
+    color: #00A6BB;
+    font-size: 50px;
 }
 
 .portfolio-area .view-gallery .single-view {
@@ -4819,8 +4820,9 @@ Portfolio Page Style
 
 .portfolio-area .view-gallery .single-view span {
     display: block;
-    color: #c51717;
+    color: #00A6BB;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .portfolio-area .view-gallery .single-view h4 {
@@ -4829,7 +4831,7 @@ Portfolio Page Style
 }
 
 .portfolio-area .view-gallery .single-view h4 a {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .portfolio-area .view-gallery img {
