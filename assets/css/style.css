@@ -109,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #00A6BB;
+    color: black;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
 }
@@ -117,7 +117,7 @@ h6 {
 p {
     margin-bottom: 15px;
     line-height: 26px;
-    color: #555555;
+    color: black;
 }
 
 p:last-child {
@@ -316,7 +316,7 @@ p:last-child {
 .section-heading h2 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #00A6BB;
+    color: black;
 }
 
 .section-heading p {
@@ -333,9 +333,9 @@ Navbar Area Style
 
 .navbar-area {
     border-bottom: 1px solid rgba(255, 255, 255, 0.19);
-    background-color: transparent;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
 }
 
 .navbar-area.is-sticky {
@@ -1262,7 +1262,6 @@ Banner Area Style
 ======================================================*/
 
 .banner-area {
-    padding-top: 180px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1314,14 +1313,14 @@ Banner Area Style
     font-size: 110px;
     font-weight: 800;
     line-height: 115px;
-    color: #CE1B64;
+    color: #2A2A4D;
     letter-spacing: -0.01em;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
 .banner-content p {
-    color: #d7d6d6;
+    color: gray;
     margin-bottom: 35px;
 }
 
@@ -1411,6 +1410,7 @@ Banner Area Style
 .banner-img {
     position: relative;
     z-index: 1;
+    padding-left: 150px;
 }
 
 .banner-img .banner-shape-1 {
@@ -1476,6 +1476,7 @@ Our Awesome Features Area Style
     top: -30px;
     left: 0;
     z-index: 2;
+    background: linear-gradient(180deg, #F978C5 -0.29%, #FA1F6F 47.99%, #CE1B64 82.71%, #AA0400 99.12%);
 }
 
 .features-card .features {
@@ -1857,7 +1858,7 @@ Footer Area Style
 .footer-area {
     position: relative;
     z-index: 1;
-    padding-left: 180px;
+    margin: auto;
 }
 
 .footer-area::before {
@@ -3296,14 +3297,21 @@ Home Three Awesome Area Style
 }
 
 .awesome-card {
-    box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.07);
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
     background-color: #ffffff;
-    border-radius: 20px;
+    min-height: 300px;
+    border-radius: 10px;
     padding: 35px 30px;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 30px;
+}
+
+#centro img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .awesome-card .awesome-image {
@@ -3319,13 +3327,15 @@ Home Three Awesome Area Style
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, #7783f4 -0.29%, #a92c80 47.99%, #e71372 82.71%, #ff0a6c 99.12%);
     width: 64px;
     height: 60px;
     line-height: 50px;
     text-align: center;
     border-radius: 5px;
     z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .awesome-card .awesome-image img {
@@ -3334,6 +3344,7 @@ Home Three Awesome Area Style
 }
 
 .awesome-card h4 {
+    text-align: center;
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -3344,27 +3355,7 @@ Home Three Awesome Area Style
 }
 
 .awesome-card h4 a:hover {
-    color: #00A6BB;
-}
-
-.awesome-card.two .awesome-image::before {
-    background: linear-gradient(180deg, #ff992e -0.29%, #f88138 21.29%, #e74453 66.59%, #da1467 99.12%);
-}
-
-.awesome-card.three .awesome-image::before {
-    background: linear-gradient(180deg, #eec32d -0.29%, #fd754d -0.28%, #f63d90 99.1%, #f36e2b 99.11%);
-}
-
-.awesome-card.four .awesome-image::before {
-    background: linear-gradient(180deg, #eec32d -0.29%, #efab2d 19.69%, #f36e2b 61.62%, #f6322a 99.12%);
-}
-
-.awesome-card.five .awesome-image::before {
-    background: linear-gradient(180deg, #D61669 -0.29%, #EF4445 60.92%, #FC5C33 99.12%);
-}
-
-.awesome-card.six .awesome-image::before {
-    background: linear-gradient(180deg, #A30A7C -0.29%, #D541A5 64.81%, #EB59B7 99.12%);
+    color: #f73a93;
 }
 
 .best-service-area .awesome-card .awesome-image {
@@ -3453,7 +3444,6 @@ Home Three Work Process Area Style
 }
 
 .process-card .process-img {
-    background-color: #ffdbe7;
     width: 164px;
     height: 164px;
     border-radius: 50%;
@@ -3501,10 +3491,10 @@ Home Three Boost Your Business Area Style
 .business-experience .experience-card .heading {
     position: relative;
     margin-bottom: 50px;
+    display: flex;
 }
 
-.business-experience .experience-card .heading .business-img {
-    background: rgba(253, 117, 41, 0.1);
+.business-experience .experience-card .heading .business-img img{
     border-radius: 5px;
     width: 60px;
     height: 55px;
@@ -3517,7 +3507,7 @@ Home Three Boost Your Business Area Style
 
 .business-experience .experience-card .heading .business-img img {
     width: 40px;
-    height: 35px;
+    height: 40px;
 }
 
 .business-experience .experience-card .heading h4 {
@@ -3826,7 +3816,7 @@ Services Page Style
 ======================================================*/
 
 .page-banner-area {
-    padding-top: 165px;
+    padding-top: 50px;
     padding-bottom: 35px;
     position: relative;
 }
@@ -3904,6 +3894,7 @@ Services Page Style
 
 .page-banner-img {
     text-align: end;
+    max-width: 70%;
 }
 
 .process-area {
@@ -4782,6 +4773,7 @@ Portfolio Page Style
 .portfolio-area .view-gallery {
     position: relative;
     margin-bottom: 22px;
+    max-width: 60%;
 }
 
 .portfolio-area .view-gallery::before {
@@ -4797,12 +4789,12 @@ Portfolio Page Style
     opacity: 0;
     visibility: hidden;
     transition: all ease 0.5s;
-    background: rgba(46, 10, 92, 0.75);
+    
     border-radius: 10px;
 }
 
 .portfolio-area .view-gallery .popup-view {
-    background: linear-gradient(54.46deg, rgba(253, 117, 41, 0.97) 11.33%, #FF3CA7 85.73%);
+    
     opacity: 0;
     visibility: hidden;
     width: 50px;
@@ -4815,8 +4807,8 @@ Portfolio Page Style
 }
 
 .portfolio-area .view-gallery .popup-view i {
-    color: #ffffff;
-    font-size: 24px;
+    color: #00A6BB;
+    font-size: 50px;
 }
 
 .portfolio-area .view-gallery .single-view {
@@ -4836,6 +4828,7 @@ Portfolio Page Style
     display: block;
     color: #00A6BB;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .portfolio-area .view-gallery .single-view h4 {
@@ -4844,7 +4837,7 @@ Portfolio Page Style
 }
 
 .portfolio-area .view-gallery .single-view h4 a {
-    color: #ffffff;
+    color: #00A6BB;
 }
 
 .portfolio-area .view-gallery img {
@@ -6013,3 +6006,42 @@ Preloader Area Style
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* SERVICES SETPS*/
+.steps_button{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.button_steps_normal{
+    font-size: 15px;
+    color: #2A2A4D;
+    font-weight: bold;
+}
+
+.button_steps_especial{
+    font-size: 13px;
+    color: #2A2A4D;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link{
+    background-color: #00A6BB;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn.nav-link:hover{
+    background-color: #00A6BB;
+}
+
+.number_steps{
+    color: #CE1B64;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
