@@ -4483,7 +4483,7 @@ FAQ Accordion Page Style
 
 .pel-address ul li {
     position: relative;
-    padding-left: 100px;
+    text-align: center;
 }
 
 .pel-address ul li .icon {
@@ -4638,6 +4638,10 @@ Contact Us Page Style
     animation-duration: 11s;
 }
 
+.contact-icon{
+    max-width: 25%;
+}
+
 
 
 @keyframes animate {
@@ -4723,7 +4727,7 @@ Contact Us Page Style
     border-radius: 5px;
     color: #ffffff;
     transition: all ease 0.5s;
-    background: linear-gradient(89.11deg, rgba(253, 117, 41, 0.97) -3.33%, #FF3CA7 108.61%);
+    background: #3a96af;
     position: relative;
     z-index: 1;
 }
@@ -4737,7 +4741,7 @@ Contact Us Page Style
     height: 0%;
     opacity: 0;
     visibility: hidden;
-    background: linear-gradient(89.11deg, rgba(253, 41, 182, 0.97) -3.33%, #ff943c 108.61%);
+    background: #EA1992;
     transition: all ease 0.5s;
     border-radius: 5px;
     z-index: -1;
