@@ -175,42 +175,42 @@
 
                 </div>
                 <div class="col-lg-8">
-                    <form id="contactForm" class="contact-form">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/xbjbnybp" method="POST">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="" data-error="Por favor ingrese su nombre" placeholder="Nombre">
+                                <label class="form-group">
+                                    <input type="text" name="name" class="form-control" required="" data-error="Por favor ingrese su nombre" placeholder="Nombre">
 
                                     <div class="help-block with-errors"></div>
-                                </div>
+                                </label>
                             </div>
                             <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" required="" data-error="Por favor ingrese su email" placeholder="Email">
+                                <label class="form-group">
+                                    <input type="email" name="email" class="form-control" required="" data-error="Por favor ingrese su email" placeholder="Email">
 
                                     <div class="help-block with-errors"></div>
-                                </div>
+                                </label>
                             </div>
                             <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
-                                <div class="form-group">
-                                    <input type="phone" required="" data-error="Por favor ingrese su número" class="form-control" placeholder="Teléfono">
+                                <label class="form-group">
+                                    <input type="phone" name="phone" required="" data-error="Por favor ingrese su número" class="form-control" placeholder="Teléfono">
 
                                     <div class="help-block with-errors"></div>
-                                </div>
+                                </label>
                             </div>
                             <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
-                                <div class="form-group">
-                                    <input type="text" required="" data-error="Por favor ingrese el mótivo de su mensaje" class="form-control" placeholder="Motivo">
+                                <label class="form-group">
+                                    <input type="text" name="motive" required="" data-error="Por favor ingrese el mótivo de su mensaje" class="form-control" placeholder="Motivo">
 
                                     <div class="help-block with-errors"></div>
-                                </div>
+                                </label>
                             </div>
                             <div class="col-lg-12 col-md-12">
-                                <div class="form-group">
-                                    <textarea class="form-control textarea" cols="30" rows="8" required="" data-error="Ingrese su mensaje" placeholder="Mensaje"></textarea>
+                                <label class="form-group">
+                                    <textarea name="message" class="form-control textarea" cols="30" rows="8" required="" data-error="Ingrese su mensaje" placeholder="Mensaje"></textarea>
 
                                     <div class="help-block with-errors"></div>
-                                </div>
+                                </label>
                             </div>
                             <div class="col-lg-12 col-md-12">
                                 <button class="book-btn" type="submit" style="pointer-events: all; cursor: pointer;">Enviar Mensaje</button>
@@ -308,8 +308,6 @@
     <script src="assets/js/scrollcue.js"></script>
     <script src="assets/js/appear.min.js"></script>
     <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.js"></script>
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/meanmenu.min.js"></script>
     <script src="assets/js/main.js"></script>
