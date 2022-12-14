@@ -4532,7 +4532,6 @@ Contact Us Page Style
 }
 .contactTitle{
     font-size: 80px;
-    padding-left: 50px;
     color: black
 }
 .area{
@@ -4547,7 +4546,7 @@ Contact Us Page Style
     top: 0;
     left: 0;
     width: 100%;
-    height: 55%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -4642,6 +4641,14 @@ Contact Us Page Style
     max-width: 25%;
 }
 
+.contact-row{
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+label{
+    display: block;
+}
 
 
 @keyframes animate {

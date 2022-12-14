@@ -138,11 +138,6 @@
 
     <!-- Start Page Banner Area -->
     <div class="banner-area">
-        <div class="contactBgAn container-fluid">
-            <div class="contactContextBg">
-                <h1 class="contactTitle">Contacto</h1>
-            </div>
-        </div>
         <div class="area" >
             <ul class="circles">
 
@@ -164,73 +159,77 @@
     <!-- End Page Banner Area -->
 
     <!-- Start Contact Us Area -->
-    <div class="contact-area ptb-100">
+    <div class="contact-area">
         <div class="container">
+            <div class="contactContextBg text-center pb-100">
+                <h1 class="contactTitle">Contacto</h1>
+            </div>
             <div class="section-title">
                 <h2>Estamos felices de poder ayudarte</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row contact-row">
+                <div class="col-lg-6">
                     <div class="pel-address">
                         <ul>
                             <li>
-                                <div class="col">
-                                    <p> <img src="assets/images/png/phone.png" class="img-fluid contact-icon" alt=""></p>
-                                    <a class="refContact" href="tel:5547887122">+525547887122</a>
-                                </div>
+                                <img src="assets/images/png/phone.png" class="img-fluid contact-icon" alt="">
+                                <a class="refContact" href="tel:5547887122">+525547887122</a>
                             </li>
                         </ul>
                     </div>
+                </div>
 
+                <div class="col-lg-6">
                     <div class="pel-address">
                         <ul>
                             <li>
-                                <p><img src="assets/images/png/email.png" class="img-fluid contact-icon" alt=""></p>
+                                <img src="assets/images/png/email.png" class="img-fluid contact-icon" alt="">
                                 <a class="refContact" href="mailto:amoxtlidev@gmail.com"><span class="__cf_email__" data-cfemail="f79e99919884988682b7909a969e9bd994989a">amoxtlidev@gmail.com</span></a>
                             </li>
                         </ul>
                     </div>
-
                 </div>
-                <div class="col-lg-8">
+            </div>
+
+            <div class="row">
                     <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
                         <div class="row">
-                            <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
-                                <label class="form-group">
+                            <div class="col-lg-6">
+                                <label class="form-group" >
                                     <input type="text" name="name" class="form-control" required="" data-error="Por favor ingrese su nombre" placeholder="Nombre">
 
                                     <div class="help-block with-errors"></div>
                                 </label>
                             </div>
-                            <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
+                            <div class="col-lg-6">
                                 <label class="form-group">
                                     <input type="email" name="email" class="form-control" required="" data-error="Por favor ingrese su email" placeholder="Email">
 
                                     <div class="help-block with-errors"></div>
                                 </label>
                             </div>
-                            <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
+                            <div class="col-lg-6">
                                 <label class="form-group">
                                     <input type="phone" name="phone" required="" data-error="Por favor ingrese su número" class="form-control" placeholder="Teléfono">
 
                                     <div class="help-block with-errors"></div>
                                 </label>
                             </div>
-                            <div class="col-lg-6 col-sm-6 col-md-6 col-xl-6">
+                            <div class="col-lg-6">
                                 <label class="form-group">
                                     <input type="text" name="motive" required="" data-error="Por favor ingrese el mótivo de su mensaje" class="form-control" placeholder="Motivo">
 
                                     <div class="help-block with-errors"></div>
                                 </label>
                             </div>
-                            <div class="col-lg-12 col-md-12">
+                            <div class="col-lg-12">
                                 <label class="form-group">
                                     <textarea name="message" class="form-control textarea" cols="30" rows="8" required="" data-error="Ingrese su mensaje" placeholder="Mensaje"></textarea>
 
                                     <div class="help-block with-errors"></div>
                                 </label>
                             </div>
-                            <div class="col-lg-12 col-md-12">
+                            <div class="col-lg-12">
                                 <input type="hidden" name="redirect" value="/index.html">
                                 <input type="hidden" name="access_key" value="d280be79-73af-4ba9-8d10-2c12dacd45f1">
                                 <button class="book-btn" type="submit" style="pointer-events: all; cursor: pointer;">Enviar Mensaje</button>
@@ -249,76 +248,76 @@
 
    <!-- Start Footer Area -->
    <div class="footer-area ptb-100 bg-color-3d0660">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="widget">
-                    <a href="index.html">
-                        <img src="assets/images/logo/Logo Amoxtli.png" class="footer-logo img-fluid" alt="image">
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-8">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <div class="address">
-                            <h4>Links</h4>
-                            <ul>
-                                <li>
-                                    <a href="portfolio.html">Portafolio</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contacto</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Servicios</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-                            </ul>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="widget">
+                        <a href="index.html">
+                            <img src="assets/images/logo/Logo Amoxtli.png" class="footer-logo img-fluid" alt="image">
+                        </a>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 col-md-4">
-                        <div class="address">
-                            <h4>Contáctanos</h4>
-                            <ul class="location">
-                                <li>
-                                    <i class="bi bi-telephone"></i>
-                                    <a href="tel:5547887122">(52) 5547 8871 22</a>
-                                </li>
-                                <li>
-                                    <i class="bi bi-envelope"></i>
-                                    <a href="mailto:amoxtlidev@gmail.com"><span class="__cf_email__" data-cfemail="8ae3e4ece5caeff2ebe7fae6efa4e9e5e7">amoxtlidev@gmail.com</span></a>
-                                </li>
-                            </ul>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-md-4">
+                            <div class="address">
+                                <h4>Links</h4>
+                                <ul>
+                                    <li>
+                                        <a href="portfolio.html">Portafolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contacto</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Servicios</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="address">
+                                <h4>Contáctanos</h4>
+                                <ul class="location">
+                                    <li>
+                                        <i class="bi bi-telephone"></i>
+                                        <a href="tel:5547887122">(52) 5547 8871 22</a>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-envelope"></i>
+                                        <a href="mailto:amoxtlidev@gmail.com"><span class="__cf_email__" data-cfemail="8ae3e4ece5caeff2ebe7fae6efa4e9e5e7">amoxtlidev@gmail.com</span></a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- shape image -->
     </div>
-    <!-- shape image -->
-</div>
-<!-- End Footer Area -->
+    <!-- End Footer Area -->
 
-<!-- Start Copy Area -->
-<div class="copy-area bg-color-3d0660">
-    <div class="container">
-        <div class="copy">
-            <p>Copyright <span>Amoxtli Developers</span></p>
+    <!-- Start Copy Area -->
+    <div class="copy-area bg-color-3d0660">
+        <div class="container">
+            <div class="copy">
+                <p>Copyright <span>Amoxtli Developers</span></p>
+            </div>
         </div>
     </div>
-</div>
-<!-- End Copy Area -->
+    <!-- End Copy Area -->
 
-<!-- Go top -->
-<div class="go-top">
-    <i class="bi bi-arrow-up"></i>
-</div>
-<!-- Go top -->
+    <!-- Go top -->
+    <div class="go-top">
+        <i class="bi bi-arrow-up"></i>
+    </div>
+    <!-- Go top -->
 
 
     <!-- Link of JS -->
