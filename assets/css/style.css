@@ -4538,7 +4538,7 @@ Contact Us Page Style
     background: #4e54c8;  
     background: white;  
     width: 100%;
-    height:55vh;
+    height:30vh;
 }
 
 .circles{
@@ -4787,22 +4787,7 @@ Portfolio Page Style
     max-width: 60%;
 }
 
-.portfolio-area .view-gallery::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 80%;
-    height: 80%;
-    margin: auto;
-    opacity: 0;
-    visibility: hidden;
-    transition: all ease 0.5s;
-    
-    border-radius: 10px;
-}
+
 
 .portfolio-area .view-gallery .popup-view {
     
@@ -5345,6 +5330,80 @@ Our Terms & Conditions Page Style
     width: 100%;
     visibility: visible;
 }
+/*Galeria Portafolio Area*/
+
+.column {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.column figure {
+    position: relative;
+    /*height: 250px;*/
+    cursor: pointer;
+    /*width: 350px;*/
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+}
+
+.column figure img {
+    width: 80%;
+    height: 80%;
+    padding-left: 10;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+
+.column figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 103, 123, 0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.column figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.column figure:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.column figure:hover>img {
+    transform: scale(1.3);
+}
+
+.column figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30px;
+}
+
+.column figure .capa p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
 
 /*
 Coming Soon Area Style
@@ -5644,6 +5703,42 @@ Preloader Area Style
 .loaded .loader-section.section-right {
     transform: translateX(101%);
     transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+.rowGallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    
+    margin-left: 25px;
+    vertical-align: middle;
+    width: 90%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 @-webkit-keyframes spinner {
